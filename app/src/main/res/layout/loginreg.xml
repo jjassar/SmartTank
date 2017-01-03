@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/back10">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText13"
+        android:textColor="#FFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Username"
+        android:textColorHint="#FFF"
+        android:textColorHighlight="#FFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register"
+        android:id="@+id/button13"
+        android:textColor="#fdfcfc"
+        android:layout_alignTop="@+id/button12"
+        android:layout_toRightOf="@+id/button12"
+        android:layout_toEndOf="@+id/button12" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:textColor="#FFF"
+        android:layout_above="@+id/button12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:hint="Password"
+        android:text="#FFF"
+        android:textColorHint="#FFF"
+        android:textColorHighlight="#FFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbtn"
+        android:id="@+id/button12"
+        android:textColor="#fdfcfc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:icon="@drawable/logo8" android:title="Add favourites" android:id="@+id/action_settings" ></item>
+    <item android:icon="@drawable/logo8" android:title="View favourites" android:id="@+id/action_viewfav" ></item>
+
+
+
+</menu>

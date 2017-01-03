@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<CheckBoxPreference android:key="Choice" android:title="Automatic Learning"
+    android:summary="Auto learn your area. Will consume more battery"
+    android:defaultValue="false"></CheckBoxPreference>
+
+</PreferenceScreen>

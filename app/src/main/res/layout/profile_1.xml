@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backblue">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:drawableLeft="@mipmap/pointer"
+        android:hint="Longitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:drawableLeft="@mipmap/pointer"
+        android:hint="Latitude"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:drawableLeft="@mipmap/pointer"
+        android:hint="Long Press to get Location Name"
+        android:editable="false"
+        android:inputType="none"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="set area"
+        android:textSize="@dimen/place_autocomplete_button_padding"
+        android:id="@+id/button5"
+        android:background="@drawable/rounded"
+        android:drawableTop="@android:drawable/ic_menu_mylocation"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp" />
+
+
+
+</RelativeLayout>

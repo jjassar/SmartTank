@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.netmax.ubpro.smartank.LocationList"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView android:text="Enter location name "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="#37b5eb"
+        android:textSize="30sp" />
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchin"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="find"
+        android:background="@drawable/roundedlightblue"
+        android:id="@+id/search"
+        android:layout_below="@+id/searchin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ListView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchout"
+        android:layout_below="@+id/search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Click on Suggestion to map location"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#37b5eb"
+        android:textSize="20sp" />
+</RelativeLayout>
